@@ -1,0 +1,24 @@
+# READ ME
+## THESE BINDINGS REQUIRE MY JOYSTICK GREMLIN PROFILE TO WORK!!!
+Joystick Gremlin profile included in download.
+Setting up Joystick Gremlin is easy if you follow my step by step guides
+Joystick Gremlin Quick Setup Guide - https://www.youtube.com/watch?v=-sxW8CfOn4A&t=0s (Shows you how to install and do basic things in JG)
+Installing My Advanced Binds - https://youtu.be/mc-ozIogrpI?si=WuwMqg0S-G922i10 (Assumes you have all the programs installed)
+
+## Troubleshooting
+All troubleshooting is handled through the channel discord.
+	* Troubleshooting Checklist - https://discord.com/channels/303670222097874945/1154143410215731201/1239576645204054047
+	* FAQ - Please check #Peripheral-FAQs FIRST - https://discord.com/channels/303670222097874945/1154143410215731201
+	* If you have questions or issues that arent listed in the FAQs please create a post in the Joystick-Bindings-Support Channel & make sure to mention a @PeripheralExpert https://discord.com/channels/303670222097874945/1006954369800998992
+	
+## Text to Speach & Audio Files
+* In the upper right hand corner of JG, you can select which mode you would like to edit. Delete the "Text to Speach" function from button three, on both the left and right sticks. Repeat this for all four modes and save the profile.
+* After you remove the TTS If you would like to activate the "play sound" freature you can do so by simply tell JG where to find your audio files. I have added some one I think are cool to a folder included in this package.
+* The Salvage and Mining audio files are for those who only mine OR salvage and want to hear a more personalized message. Auxillary is for those who mine or salvage. (This has no effect on the binds.)
+
+## Ediable PDF's
+The PDF versions are editable in Adobe Illustrator as well as Adobe Acrobat (The paid version not free).
+
+## Printer Friendly Binding Chart
+* The chart labled [PF] has a white backgound to conserve ink for people who would like to print it. 
+* If you have the paid version of adobe acrobat you can select the "Poster" option in the print settings and change the scale from %100 to 30% and it will spplit the chart into two pages with 1 stick on each page. For other programs just remember that scalled down to 30% its small enough to fit each stick on its own page.
