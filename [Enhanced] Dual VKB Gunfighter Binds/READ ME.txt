@@ -1,4 +1,4 @@
-# READ ME
+# READ ME MOFO
 ## THESE BINDINGS REQUIRE MY JOYSTICK GREMLIN PROFILE TO WORK!!!
 Joystick Gremlin profile included in download.
 Setting up Joystick Gremlin is easy if you follow my step by step guides
