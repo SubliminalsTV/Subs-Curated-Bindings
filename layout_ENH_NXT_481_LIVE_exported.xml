@@ -514,6 +514,9 @@
   <action name="v_increase_mining_throttle">
    <rebind input="js1_button28"/>
   </action>
+  <action name="v_jettison_volatile_cargo">
+   <rebind input="js2_button48" activationMode="hold"/>
+  </action>
   <action name="v_mining_throttle">
    <rebind input="js1_rotz"/>
   </action>
