@@ -1675,7 +1675,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>L-D1 "Modifier | Modifier" Release Modifier -- return to SCM Mode (JG R15).</value>
+                <value>L-D1 "Modifier | Modifier" Release Modifier -- back to the prior mode (JG R15).</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>

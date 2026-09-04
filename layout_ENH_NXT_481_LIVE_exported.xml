@@ -374,7 +374,7 @@
    <rebind input="js1_button37"/>
   </action>
   <action name="v_toggle_docking_request">
-   <rebind input="js1_button13"/>
+   <rebind input="js1_button13" activationMode="double_tap"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting">
