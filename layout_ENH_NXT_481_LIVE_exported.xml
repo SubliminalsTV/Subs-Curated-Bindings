@@ -64,6 +64,9 @@
   <action name="v_set_mining_mode">
    <rebind input="js2_button126"/>
   </action>
+  <action name="v_set_refuel_mode">
+   <rebind input="js2_button126"/>
+  </action>
   <action name="v_set_salvage_mode">
    <rebind input="js2_button126"/>
   </action>
@@ -75,6 +78,9 @@
   </action>
   <action name="v_toggle_missile_mode">
    <rebind input="js2_ "/>
+  </action>
+  <action name="v_toggle_refuel_mode">
+   <rebind input="js1_button125"/>
   </action>
   <action name="v_toggle_salvage_mode">
    <rebind input="js1_button125"/>
