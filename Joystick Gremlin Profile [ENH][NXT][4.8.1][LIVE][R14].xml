@@ -1665,11 +1665,17 @@
         <action id="e2724d2a-08c4-4038-b863-488fe1f17891" type="change-mode">
             <property type="string">
                 <name>change-type</name>
-                <value>Previous</value>
+                <value>Temporary</value>
             </property>
+            <target-mode>
+                <property type="string">
+                    <name>name</name>
+                    <value>SCM Mode</value>
+                </property>
+            </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>L-D1 "Modifier | Modifier" Pop mode stack -- return to the prior active mode.</value>
+                <value>L-D1 "Modifier | Modifier" Release Modifier -- return to SCM Mode (JG R15).</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -8317,94 +8323,6 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="56748439-749e-46fc-9e7a-438766689995" type="macro">
-            <property type="bool">
-                <name>is-exclusive</name>
-                <value>False</value>
-            </property>
-            <property type="string">
-                <name>repeat-mode</name>
-                <value>Single</value>
-            </property>
-            <property type="int">
-                <name>repeat-count</name>
-                <value>1</value>
-            </property>
-            <property type="float">
-                <name>repeat-delay</name>
-                <value>0.1</value>
-            </property>
-            <macro-action type="key">
-                <property type="int">
-                    <name>scan-code</name>
-                    <value>56</value>
-                </property>
-                <property type="bool">
-                    <name>is-extended</name>
-                    <value>True</value>
-                </property>
-                <property type="bool">
-                    <name>is-pressed</name>
-                    <value>True</value>
-                </property>
-            </macro-action>
-            <macro-action type="key">
-                <property type="int">
-                    <name>scan-code</name>
-                    <value>49</value>
-                </property>
-                <property type="bool">
-                    <name>is-extended</name>
-                    <value>False</value>
-                </property>
-                <property type="bool">
-                    <name>is-pressed</name>
-                    <value>True</value>
-                </property>
-            </macro-action>
-            <macro-action type="pause">
-                <property type="float">
-                    <name>duration</name>
-                    <value>0.05</value>
-                </property>
-            </macro-action>
-            <macro-action type="key">
-                <property type="int">
-                    <name>scan-code</name>
-                    <value>49</value>
-                </property>
-                <property type="bool">
-                    <name>is-extended</name>
-                    <value>False</value>
-                </property>
-                <property type="bool">
-                    <name>is-pressed</name>
-                    <value>False</value>
-                </property>
-            </macro-action>
-            <macro-action type="key">
-                <property type="int">
-                    <name>scan-code</name>
-                    <value>56</value>
-                </property>
-                <property type="bool">
-                    <name>is-extended</name>
-                    <value>True</value>
-                </property>
-                <property type="bool">
-                    <name>is-pressed</name>
-                    <value>False</value>
-                </property>
-            </macro-action>
-            <property type="string">
-                <name>action-label</name>
-                <value>L-A3.down.hold "Dock/Undock | Flight Control" Quick Right Alt+N chord -- SC docking toggle</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>press</value>
-            </property>
-        </action>
         <action id="c8e38286-9289-41e9-a1a3-f49e64c5ac15" type="map-to-vjoy">
             <property type="int">
                 <name>vjoy-device-id</name>
@@ -8424,41 +8342,17 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-A3.down.tap</value>
+                <value>L-A3.down</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
                 <value>both</value>
             </property>
         </action>
-        <action id="40ac94e7-04cd-4a84-9c8a-3d6da2d91644" type="tempo">
-            <short-actions>
-                <action-id>c8e38286-9289-41e9-a1a3-f49e64c5ac15</action-id>
-            </short-actions>
-            <long-actions>
-                <action-id>56748439-749e-46fc-9e7a-438766689995</action-id>
-            </long-actions>
-            <property type="float">
-                <name>threshold</name>
-                <value>0.5</value>
-            </property>
-            <property type="string">
-                <name>activate-on</name>
-                <value>release</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>L-A3.down</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
         <action id="ad0796cc-4813-40c2-b192-75a28c1a8e55" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Tap toggles your landing gear (or auto-lands / requests docking when available). Hold about half a second to send a quick Right Alt+N chord -- Star Citizen's dock/undock toggle, which can't be bound to a stick button directly.</value>
+                <value>Toggles your landing gear (or auto-lands / requests docking when available). Star Citizen 4.10 made dock/undock a real bind, so the old Right Alt+N keyboard chord is gone.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8472,11 +8366,11 @@
         <action id="100a3229-620b-4ee4-a515-c6d4f9aafe8a" type="root">
             <actions>
                 <action-id>ad0796cc-4813-40c2-b192-75a28c1a8e55</action-id>
-                <action-id>40ac94e7-04cd-4a84-9c8a-3d6da2d91644</action-id>
+                <action-id>c8e38286-9289-41e9-a1a3-f49e64c5ac15</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Tempo (Tap/Hold) Landing / Docking</value>
+                <value>Landing / Docking</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>

@@ -373,10 +373,7 @@
   <action name="v_dock_toggle_view">
    <rebind input="js1_button37"/>
   </action>
-  <action name="v_invoke_docking">
-   <rebind input="js1_button13"/>
-  </action>
-  <action name="v_toggle_docking_mode">
+  <action name="v_toggle_docking_request">
    <rebind input="js1_button13"/>
   </action>
  </actionmap>
